@@ -5,6 +5,7 @@ include "database.php";
 
 if (isset($_POST['register'])) {
     // Get values from the registration form
+    //testing this 
     $username = $_POST['username'];
     $password = $_POST['password'];
     $fname = $_POST['fname'];
